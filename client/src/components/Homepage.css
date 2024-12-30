@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+button.primary {
+	cursor: pointer;
+	padding: 0.65rem 1rem;
+	background-color: #edc500;
+  color: #222;
+	border: none;
+	font-weight: 600;
+	border-radius: 10px;
+	white-space: nowrap;
+	font-family: 'Poppins';
+	transition: all 100ms ease-in;
+}
+
+button.primary:hover {
+	background-color: #161616;
+	color: #edc500;
+}
+
+.job-seekers-buttons button.secondary,
+.recruiter button.secondary {
+	cursor: pointer;
+	background-color: #222;
+  border: solid #edc500;
+  border-width: 2px;
+	padding: 0.65rem 1rem;
+  color: #dac100;
+  border-width: 0.1px;
+  border-radius: 10px;
+	transition: all 100ms ease-in;
+}
+
+.job-seekers-buttons button.secondary:hover,
+.recruiter button.secondary:hover {
+	background-color: #161616;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+/* Logo */
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .logo .logo-peh {
+  color: #fff;
+}
+
+.navbar .logo .logo-chaan {
+  color: #edc500;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.text-content {
+  background-color: #fff; /* White background */
+  color: #000; /* Dark text */
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 30%; /* Adjust size */
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  text-align: left; /* Left-align text */
+  position: relative; /* So it aligns with the login card */
+  top: 0;
+  z-index: 2;
+}
+
+.text-content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.login-btn:hover {
+  background-color: #333;
+}
+
+/* Adjusting button layout for Job Seekers */
+.job-seekers-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.job-seekers-buttons .login-btn {
+  width: 48%; /* Ensure buttons are placed side by side */
+}
+
+/* Centering the recruiter login button */
+.recruiter .login-btn {
+  width: 50%; /* Adjust size for recruiter login */
+  margin: 0 auto;
+}
+
+.image-container {
+  width: 45%; /* Adjust width for image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%; /* Adjust positioning relative to the cards */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image vertically and horizontally */
+  z-index: 0;
+}
+
+.image-content {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 80%;
+  z-index: -1;
+}
+
+.pattern-top-left {
+  position: absolute;
+  top: 20px;
+  left: -30px;
+  width: 100px;
+}
+
+.pattern-right {
+  position: absolute;
+  bottom: -10px;
+  right: -40px;
+  width: 125%;
+  z-index: -2;
+}
+
+/* Login Section */
+.login-section {
+  width: 35%; /* Adjust width for login section */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Add space between the recruiter and candidate cards */
+  z-index: 2;
+}
+
+.login-card {
+  background-color: rgba(36, 36, 36, 0.6); /* Slightly transparent */
+  border-radius: 12px;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+  backdrop-filter: blur(10px);
+}
+
+.login-card.recruiter, .login-card.candidate {
+  padding: 1.5rem;
+}
+
+.login-card h3 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.login-card p {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  margin-top: 10px;
+}
+
+.login-btn + .login-btn {
+  margin-left: 10px; /* Add spacing between the candidate login and signup buttons */
+}
+
+/* Coming Soon Section */
+.coming-soon-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.coming-soon-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.coming-soon-cards .coming-soon-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  width: 30%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.coming-soon-cards .coming-soon-card h3 {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.coming-soon-cards .coming-soon-card p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  .text-content, .login-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-content {
+    max-width: 80%;
+    align-items: center;
+    background-color: #fff;
+  }
+  .text-content p {
+    font-weight: 400;
+  }
+
+  .contact-btn {
+    width: 70%;
+    max-width: 80%;
+  }
+
+  .login-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-card.recruiter, .login-card.candidate {
+    width: 80%;
+    background-color: #161616;
+  }
+
+  .login-card p {
+    font-size: 14px;
+  }
+
+  .text-content h1 {
+    font-size: 24px;
+  }
+
+  .text-content p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .create-account-btn {
+    padding: 10px 20px;
+  }
+
+  .pattern-top-left {
+    display: none;
+  }
+
+  .pattern-right {
+    width: 120%;
+    right: -20px;
+  }
+  .coming-soon-section {
+    z-index: 3;
+  }
+
+  .coming-soon-cards {
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+  }
+
+  .coming-soon-cards .coming-soon-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .menu-icon {
+    display: none;
+  }
+}

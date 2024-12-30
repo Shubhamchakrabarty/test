@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Painting",
+    "category_id": "1"
+  },
+  {
+    "name": "Drawing",
+    "category_id": "1"
+  },
+  {
+    "name": "Writing (poetry, fiction, non-fiction)",
+    "category_id": "1"
+  },
+  {
+    "name": "Photography",
+    "category_id": "1"
+  },
+  {
+    "name": "Graphic Design",
+    "category_id": "1"
+  },
+  {
+    "name": "Crafts (knitting, crocheting, pottery)",
+    "category_id": "1"
+  },
+  {
+    "name": "Music (playing instruments, composing)",
+    "category_id": "1"
+  },
+  {
+    "name": "Acting",
+    "category_id": "1"
+  },
+  {
+    "name": "Filmmaking",
+    "category_id": "1"
+  },
+  {
+    "name": "Cooking and Baking",
+    "category_id": "1"
+  },
+  {
+    "name": "Woodworking",
+    "category_id": "1"
+  },
+  {
+    "name": "Gardening",
+    "category_id": "1"
+  },
+  {
+    "name": "Running",
+    "category_id": "2"
+  },
+  {
+    "name": "Cycling",
+    "category_id": "2"
+  },
+  {
+    "name": "Hiking",
+    "category_id": "2"
+  },
+  {
+    "name": "Swimming",
+    "category_id": "2"
+  },
+  {
+    "name": "Yoga",
+    "category_id": "2"
+  },
+  {
+    "name": "Martial Arts",
+    "category_id": "2"
+  },
+  {
+    "name": "Rock Climbing",
+    "category_id": "2"
+  },
+  {
+    "name": "Dancing",
+    "category_id": "2"
+  },
+  {
+    "name": "Team Sports (soccer, basketball, volleyball)",
+    "category_id": "2"
+  },
+  {
+    "name": "Gym Workouts",
+    "category_id": "2"
+  },
+  {
+    "name": "Pilates",
+    "category_id": "2"
+  },
+  {
+    "name": "Skiing/Snowboarding",
+    "category_id": "2"
+  },
+  {
+    "name": "Reading",
+    "category_id": "3"
+  },
+  {
+    "name": "Chess",
+    "category_id": "3"
+  },
+  {
+    "name": "Puzzles (crosswords, Sudoku)",
+    "category_id": "3"
+  },
+  {
+    "name": "Learning New Languages",
+    "category_id": "3"
+  },
+  {
+    "name": "Coding and Programming",
+    "category_id": "3"
+  },
+  {
+    "name": "Writing (essays, blogs)",
+    "category_id": "3"
+  },
+  {
+    "name": "Debating",
+    "category_id": "3"
+  },
+  {
+    "name": "Playing Strategy Games (board games, card games)",
+    "category_id": "3"
+  },
+  {
+    "name": "Studying History",
+    "category_id": "3"
+  },
+  {
+    "name": "Watching Documentaries",
+    "category_id": "3"
+  },
+  {
+    "name": "Traveling",
+    "category_id": "4"
+  },
+  {
+    "name": "Volunteering",
+    "category_id": "4"
+  },
+  {
+    "name": "Socializing with Friends",
+    "category_id": "4"
+  },
+  {
+    "name": "Event Planning",
+    "category_id": "4"
+  },
+  {
+    "name": "Networking",
+    "category_id": "4"
+  },
+  {
+    "name": "Joining Clubs (book clubs, hobby clubs)",
+    "category_id": "4"
+  },
+  {
+    "name": "Blogging/Vlogging",
+    "category_id": "4"
+  },
+  {
+    "name": "Public Speaking",
+    "category_id": "4"
+  },
+  {
+    "name": "Community Service",
+    "category_id": "4"
+  },
+  {
+    "name": "Building Computers",
+    "category_id": "5"
+  },
+  {
+    "name": "Robotics",
+    "category_id": "5"
+  },
+  {
+    "name": "Electronics Projects",
+    "category_id": "5"
+  },
+  {
+    "name": "Home Automation",
+    "category_id": "5"
+  },
+  {
+    "name": "Drone Flying",
+    "category_id": "5"
+  },
+  {
+    "name": "3D Printing",
+    "category_id": "5"
+  },
+  {
+    "name": "Amateur Radio",
+    "category_id": "5"
+  },
+  {
+    "name": "DIY Projects",
+    "category_id": "5"
+  },
+  {
+    "name": "Camping",
+    "category_id": "6"
+  },
+  {
+    "name": "Fishing",
+    "category_id": "6"
+  },
+  {
+    "name": "Bird Watching",
+    "category_id": "6"
+  },
+  {
+    "name": "Surfing",
+    "category_id": "6"
+  },
+  {
+    "name": "Kayaking/Canoeing",
+    "category_id": "6"
+  },
+  {
+    "name": "Star Gazing/Astronomy",
+    "category_id": "6"
+  },
+  {
+    "name": "Geocaching",
+    "category_id": "6"
+  },
+  {
+    "name": "Mountain Biking",
+    "category_id": "6"
+  },
+  {
+    "name": "Scuba Diving",
+    "category_id": "6"
+  },
+  {
+    "name": "Wildlife Photography",
+    "category_id": "6"
+  },
+  {
+    "name": "Collecting Stamps",
+    "category_id": "7"
+  },
+  {
+    "name": "Collecting Coins",
+    "category_id": "7"
+  },
+  {
+    "name": "Collecting Antiques",
+    "category_id": "7"
+  },
+  {
+    "name": "Collecting Memorabilia (sports, movies)",
+    "category_id": "7"
+  },
+  {
+    "name": "Collecting Action Figures",
+    "category_id": "7"
+  },
+  {
+    "name": "Collecting Vinyl Records",
+    "category_id": "7"
+  },
+  {
+    "name": "Collecting Art",
+    "category_id": "7"
+  },
+  {
+    "name": "Pet Care (dog training, fish keeping)",
+    "category_id": "8"
+  },
+  {
+    "name": "Model Building (cars, airplanes)",
+    "category_id": "8"
+  },
+  {
+    "name": "Magic Tricks",
+    "category_id": "8"
+  },
+  {
+    "name": "Fashion Designing",
+    "category_id": "8"
+  },
+  {
+    "name": "Blogging/Vlogging",
+    "category_id": "8"
+  },
+  {
+    "name": "Learning about Wines",
+    "category_id": "8"
+  },
+  {
+    "name": "Mixology (making cocktails)",
+    "category_id": "8"
+  },
+  {
+    "name": "Brewing Beer",
+    "category_id": "8"
+  },
+  {
+    "name": "Origami",
+    "category_id": "8"
+  },
+  {
+    "name": "Interior Design",
+    "category_id": "8"
+  }
+]

@@ -1,0 +1,333 @@
+/* Specificity added for create-job container */
+
+a {
+  text-decoration: none;
+  color: #dac100;
+}
+
+button.primary {
+	cursor: pointer;
+	padding: 0.65rem 1rem;
+	background-color: #edc500;
+	border: none;
+	font-weight: 600;
+	border-radius: 10px;
+	white-space: nowrap;
+	font-family: 'Poppins';
+	transition: all 100ms ease-in;
+}
+
+button.primary:hover {
+	background-color: #222;
+	color: #edc500;
+}
+
+button.secondary {
+	cursor: pointer;
+	padding: 0.65rem 1rem;
+	color: #edc500;
+	background-color: transparent;
+	border: none;
+	font-weight: 600;
+	border-radius: 10px;
+	white-space: nowrap;
+	font-family: 'Poppins';
+	transition: all 100ms ease-in;
+}
+
+button.secondary:hover {
+	background-color: #222;
+}
+
+#tag {
+  width: fit-content;
+  padding: 0.2rem 0.6rem;
+  border-radius: 50vw;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 0.75rem;
+}
+
+.create-interviews-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(60deg, #000, #222, #000);
+  animation: color 5s ease-in-out infinite;
+  overflow: scroll;
+  font-family: 'Poppins';
+}
+
+.create-interviews-container .loader-container {
+	z-index: 100;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.loader {
+	border: 4px solid #f3f3f3;
+	border-top: 4px solid #edc500;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	animation: spin 1s linear infinite;
+}
+
+.create-interviews-container .loader-container .loader-message {
+	color: #aaa;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/* Specificity added for create-interviews navbar */
+.create-interviews-container .create-interviews-navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.create-interviews-container .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.create-interviews-container .logo-peh {
+  color: #fff;
+}
+
+.create-interviews-container .logo-chaan {
+  color: #edc500;
+}
+
+/* Specificity added for navbar links */
+.create-interviews-container .nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+.create-interviews-container .create-interviews-navbar h2{
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  font-size: 18px;
+
+}
+
+.create-interviews-container .nav-link:hover {
+  color: #e8990f;
+}
+
+/* Specificity added for create-interviews main */
+.create-interviews-container .create-interviews-main {
+  flex: 1;
+  padding: 20px;
+  margin-inline: auto;
+  width: 80%;
+}
+
+.create-interviews-container .create-interviews-main h1 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 40px;
+  color: white; /* Ensure text remains visible */
+}
+
+/* Specificity added for h2 tags */
+.create-interviews-container .create-interviews-main h2 {
+  color: white;
+}
+
+.create-interviews-container .create-interviews-main .actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.create-interview-modal {
+  height: 60vh;
+  width: 50vw;
+  background: #000;
+  padding: 2rem;
+  border-radius: 16px;
+  flex-direction: column;
+}
+
+.create-interview-modal::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+:modal {
+  display: flex;
+}
+
+.create-interview-modal .close-button {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.create-interview-modal .progress-status {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.create-interview-modal .progress-status .progress-bar {
+  height: 4px;
+  background-color: #333;
+  flex-grow: 1;
+  border-radius: 50vw;
+}
+
+.progress-status .progress-bar.done {
+  background-color: #ccc;
+}
+ 
+.create-interview-modal .interview-form {
+  margin-top: 4rem;
+  height: 100%;
+	display: flex;
+  flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+
+.interview-form .form-group {
+  position: relative;
+	width: 48%;
+	margin-top: 15px;
+}
+
+.interview-form .form-group input,
+.interview-form .form-group select,
+.interview-form .form-group textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Poppins';
+  background: none;
+  font-size: 14px;
+  outline: none;
+  background-color: transparent;
+}
+
+.interview-form .form-group select {
+  background: #000;
+}
+
+.interview-form input:focus,
+.interview-form select:focus {
+	border-color: #fff623;
+	outline: none;
+}
+
+.interview-form .form-group label {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	transform: translateY(-50%);
+	font-size: 16px;
+	color: #ccc;
+	transition: 0.2s;
+	pointer-events: none;
+}
+
+.form-group input:focus ~ label,
+.form-group input:valid ~ label,
+.form-group select:focus ~ label,
+.form-group select:valid ~ label {
+	top: 0;
+	font-size: 12px;
+	color: #fff;
+	background-color: #222;
+}
+
+.criteria-pills {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.criteria-pills .pill {
+  cursor: pointer;
+  height: fit-content;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.9rem;
+  border-radius: 50vw;
+  color: #edc500;
+  border: 1px solid #edc500;
+}
+
+
+.interview-form .actions {
+  flex-grow: 1;
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  gap: 1rem;
+  align-self: end;
+}
+
+.interview-form .actions button.back {
+  margin-left: auto;
+}
+
+button.disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.interview-form .error-text {
+	color: #eb4141;
+	font-size: 0.7rem;
+}
+
+.create-interviews-container .interviews {
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  gap: 0.75rem;
+  flex-direction: column;
+}
+
+.create-interviews-container .interviews .interview {
+  padding: 0 1.6rem 1rem;
+  background-color: #111;
+  border-radius: 10px;
+}
+
+.interviews .interview .info,
+.interviews .interview .action {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+

@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+/* Overlay for Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9); /* Dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Main Modal Container */
+.modal-container {
+  background: #222; /* Darker background for consistency */
+  border-radius: 15px;
+  padding: 20px;
+  width: 70vw;
+  max-width: 1000px;
+  height: 90vh;
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.screen1-layout {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: hidden; /* Prevent the right column from scrolling */
+}
+
+.left-column {
+  width: 75%;
+  height: 100%;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  overflow-y: auto;
+}
+
+.right-column {
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%; /* Ensure the right column takes up full height */
+  position: relative; /* Keeps it static */
+  overflow: hidden; /* Disable scrolling for the right column */
+}
+
+/* Heading Styles */
+.modal-overlay h2 {
+  font-size: 1.4em;
+  color: #f7df67; /* Accent yellow color for headings */
+  margin-top: 0;
+  text-align: left;
+}
+
+/* Container for Screen 2 */
+.screen2-container {
+  height: 100%;
+  max-height: 90vh; /* Set max height for screen 2 */
+  overflow-y: auto; /* Allow vertical scrolling */
+  padding: 2px;
+  text-align: center;
+}
+
+/* Styling for scrollbar in Screen 2 */
+.screen2-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.screen2-container::-webkit-scrollbar-thumb {
+  background-color: #f7df67; /* Yellow scrollbar for visibility */
+  border-radius: 5px; /* Rounded scrollbar */
+}
+
+.screen2-container::-webkit-scrollbar-track {
+  background-color: rgba( 255, 255, 255, 0.1); /* Lighter background for the track */
+}
+
+.modal-container h3 {
+  font-size: 1.1em; /* Reduce size of the headers */
+  color: #eee; /* Secondary heading color (yellow) */
+  font-weight: 500; /* Reduce boldness */
+  margin-top: 8px; /* Reduce margin above the headers */
+  margin-bottom: 8px; /* Reduce margin below the headers */
+}
+
+.modal-container p {
+  font-size: 0.9rem; /* Slightly smaller paragraph text */
+  color: #ddd; /* Light grey for subtle text */
+  line-height: 1.5; /* Reduce line height for more compact text */
+  margin-bottom: 8px; /* Less spacing between paragraphs */
+}
+/* Adjust the font size and yellow color for the word 'English' */
+.modal-container .highlight-english {
+  color: #f7df67; /* Yellow highlight for English */
+  font-weight: 600;
+}
+
+/* Video Container for embedded videos */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+.video-card-iframe {
+  width: 80vh;
+  height: 50vh;
+  max-width: 90%;
+  max-height: 400px;
+  border-radius: 10px;
+  border: none;
+  object-fit: cover;
+}
+
+/* Styling the context video iframe */
+.context-video-iframe {
+  width: 100%;
+  max-width: 700px; /* Limit the width to prevent it from being too large */
+  height: auto;
+  max-height: 400px; /* Set a max height for better visibility */
+  border-radius: 10px;
+  border: none;
+}
+
+/* Modal Button Styles */
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.accept-button, .next-button {
+  background: #edc500; /* Consistent yellow from the interview buttons */
+  color: #111;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 12px 10px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+  box-sizing: border-box; /* Ensure padding is considered in width */
+}
+.next-button {
+  width: 100%;
+}
+
+.accept-button {
+  width: 50%;
+}
+
+.accept-button:hover, .next-button:hover {
+  background: #f7df67; /* Lighter hover effect */
+}
+
+/* Warning box */
+.warning-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ddd;
+  border: 1px solid #f7df67;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 15px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is considered in width */
+}
+
+.context-paragraph {
+  margin-bottom: 15px; /* Space between paragraphs */
+  line-height: 1.8; /* For readability */
+  color: #ddd; /* Consistent with modal text color */
+  font-size: 0.9rem; /* Standardized font size */
+  text-align: left; /* Left-aligned for text readability */
+}
+.text-card {
+  background-color: rgba(255, 255, 255, 0.08); /* Soft card background */
+  padding: 10px; /* Consistent padding for all cards */
+  border-radius: 12px; /* Rounded corners for a modern look */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  margin: 10px 0; /* Add margin to separate elements */
+  width: 90%; /* Let the card container take up full width */
+  max-width: 90%; /* Max width for larger screens */
+  overflow-y: scroll;
+  text-align: left;
+}
+/* Scrollbar Styles */
+.text-card::-webkit-scrollbar {
+  width: 8px;
+}
+
+.text-card::-webkit-scrollbar-thumb {
+  background-color: #f7df67; /* Yellow scrollbar for visibility */
+  border-radius: 5px; /* Rounded scrollbar */
+}
+
+.text-card::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1); /* Lighter background for the track */
+}
+.video-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 90%;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.context-card {
+  background-color: rgba( 255, 255, 255, 0.08); /* Soft background for distinction */
+  padding: 10px 20px; /* Add padding for breathing room */
+  border-radius: 12px; /* Rounded corners for a modern look */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Subtle elevation */
+  margin: 5px auto; /* Center card and add space around it */
+  max-width: 800px; /* Limit the width for better readability */
+  line-height: 1.8; /* Increase line height for better readability */
+}
+
+/* Emphasize the bolded title */
+.context-card h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #f7df67; /* Use the highlight color */
+}
+
+.context-card p {
+  color: #eee;
+  font-size: 1.0rem;
+}
+
+.context-card span {
+  color: #ddd;
+  font-size: 1.0rem;
+}
+
+/* General responsiveness */
+@media (max-width: 768px) {
+  .modal-container {
+    padding: 20px;
+    width: 90vw;
+    height: 90vh;
+    margin: 5px 10px;
+    max-height: 90vh;
+    overflow-y: scroll;
+  }
+
+  .screen1-layout {
+    flex-direction: column;
+    overflow: scroll;
+    height: auto;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    overflow-y: auto;
+  }
+
+  .screen1-layout .right-column {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video-card {
+    width: 100%;
+    max-width: 95%;
+  }
+  .text-card {
+    width: 95%;
+    max-width: 95%;
+  }
+
+  .video-container iframe {
+    height: 300px;
+  }
+
+  .modal-buttons {
+    justify-content: center;
+  }
+  .context-video-iframe {
+    max-width: 90%;
+    max-height: 250px; /* Reduce size further for smaller screens */
+  }
+}
+
+@media (max-width: 425px) {
+  .modal-container {
+    padding: 15px;
+    width: 90vw;
+    height: 90vh;
+    margin: 5px 10px;
+    max-height: 100vh;
+  }
+
+  .screen1-layout {
+    flex-direction: column;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+    padding: 0;
+    height: auto;
+  }
+
+  .video-card,
+  .text-card {
+    width: 95%;
+    max-width: 95%;
+  }
+
+  .video-card iframe {
+    height: 220px;
+    width: 90%;
+  }
+
+  .modal-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .accept-button,
+  .next-button {
+    width: 100%;
+  }
+
+  .context-video-iframe {
+    max-width: 100%;
+    max-height: 200px;
+  }
+
+  .modal-container h2,
+  .modal-container h3,
+  .modal-container p {
+    font-size: 0.9rem; /* Slightly smaller font sizes on very small screens */
+  }
+}

@@ -1,0 +1,64 @@
+.interview-list-client {
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.interview-list h2 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.interview-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.interview-card-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.interview-card-container li {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.interview-card-container li h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+.interview-card-container li p {
+  margin: 5px 0;
+}
+
+.interview-card-container li .btn {
+  background-color: #e8990f;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.interview-card-container li .btn:hover {
+  background-color: #f8990f;
+}
+
+.interview-list p {
+  color: #b0b0b0;
+}

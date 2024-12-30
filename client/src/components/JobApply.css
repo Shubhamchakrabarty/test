@@ -1,0 +1,227 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+.signup-container .signup-main-content h3{
+    display : flex; 
+    justify-content: center;
+}
+.signup-container .signup-navbar {
+    width: 100%;
+    display: flex;
+    max-width: 360px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.signup-container .left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signup-container .form-group {
+    position: relative;
+    margin-top: 15px;
+}
+
+.signup-container input {
+    width: 100%;
+    max-width: 380px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #fff;
+    background: none;
+    font-size: 14px;
+    outline: none;
+    background-color: transparent;
+}
+
+.signup-container input:focus {
+    border-color: #fff623;
+    outline: none;
+}
+
+.signup-container .form-group label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #ccc;
+    transition: 0.2s;
+    pointer-events: none;
+}
+
+.form-group input:focus~label,
+.form-group input:valid~label {
+    top: 0;
+    font-size: 12px;
+    color: #fff;
+    background-color: #222;
+}
+
+.signup-container button {
+    background-color: #fff623;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.signup-container button[type="button"] {
+    background-color: #fff623;
+}
+
+.signup-container button:hover {
+    background-color: #222;
+    color: #fff623;
+}
+
+.signup-container button[type="submit"]:hover {
+    background-color: #222;
+    color: #fff623;
+}
+
+button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.signup-container p {
+    color: #fff623;
+    font-size: 14px;
+}
+
+.signup-container .experience-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 16px;
+    align-content: center;
+}
+
+.signup-container .experience-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 14px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.3);
+    transition: border-color 0.3s;
+}
+
+.signup-container .experience-option.selected {
+    border-color: #fff623;
+}
+
+.signup-container .experience-option img {
+    width: 50px;
+    height: 50px;
+}
+
+.signup-container .experience-option span {
+    display: block;
+    margin-top: 5px;
+}
+
+.signup-container .next-button,
+.back-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff623;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.signup-container.next-button:hover,
+.back-button:hover {
+    background-color: #222;
+    color: #fff623;
+}
+
+.signup-container .greeting-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.signup-container .greeting-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.signup-container .greeting-bubble {
+    background-color: #ffefd5;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loader-on-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loader-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #ffd700;
+    /* Yellow color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}

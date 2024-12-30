@@ -1,0 +1,147 @@
+/* Specificity added for create-job container */
+.create-evaluation-container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background: linear-gradient(60deg, #000, #222, #000);
+	animation: color 5s ease-in-out infinite;
+	overflow: scroll;
+}
+
+.loader-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+}
+
+.loader {
+	border: 4px solid #f3f3f3;
+	border-top: 4px solid #edc500;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes color {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+/* Specificity added for create-evaluation navbar */
+.create-evaluation-container .create-evaluation-navbar {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px;
+}
+
+.create-evaluation-container .logo {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.create-evaluation-container .logo-peh {
+	color: #fff;
+}
+
+.create-evaluation-container .logo-chaan {
+	color: #edc500;
+}
+
+/* Specificity added for navbar links */
+.create-evaluation-container .nav-link {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 18px;
+}
+.create-evaluation-container .create-evaluation-navbar h2{
+	display: flex;
+	align-items: flex-end;
+	justify-content: right;
+	font-size: 18px;
+
+}
+
+.create-evaluation-container .nav-link:hover {
+	color: #e8990f;
+}
+
+/* Specificity added for create-evaluation main */
+.create-evaluation-container .create-evaluation-main {
+	flex: 1;
+	padding: 20px;
+	margin-inline: auto;
+	width: 60%;
+}
+
+.create-evaluation-container .create-evaluation-main h1 {
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	font-size: 40px;
+	color: white; /* Ensure text remains visible */
+}
+
+/* Specificity added for h2 tags */
+.create-evaluation-container .create-evaluation-main h2 {
+	color: white;
+}
+
+.create-evaluation-main button {
+	margin-top: 1rem; 
+	margin-left: auto;
+	max-width: 400px;
+	padding: 10px 15px;
+	font-size: 1rem;
+	background-color: #222;
+	border: solid #edc500;
+	color: #dac100;
+	border-width: 0.1px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.create-evaluation-main button:hover {
+	background-color: #edc500;
+	color: #000;
+}
+
+button.disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+}
+
+.create-evaluation-main .criteria-pills {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+  
+.create-evaluation-main .criteria-pills .pill {
+    cursor: pointer;
+    padding: 0.35rem 0.7rem;
+    font-size: 0.75rem;
+    border-radius: 50vw;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.create-evaluation-container .criteria-pills.selected .pill {
+    color: #edc500;
+    border: 1px solid #edc500;
+}
+  

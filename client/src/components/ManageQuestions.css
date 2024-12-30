@@ -1,0 +1,120 @@
+.manage-questions {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.manage-questions h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark text for contrast */
+}
+
+
+.manage-questions form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.manage-questions input[type="text"],
+.manage-questions select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.manage-questions .btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff; 
+  background-color: #007bff; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start; 
+}
+
+.manage-questions .btn:hover {
+  background-color: #0056b3; 
+}
+
+.manage-questions .btn:focus {
+  outline: none;
+}
+
+/* List of existing questions */
+.question-list {
+  margin-top: 30px;
+}
+
+/* Heading for question list */
+.question-list h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333; /* Dark text for contrast */
+}
+
+/* List styling */
+.question-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+
+/* List item for each question */
+.question-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff; /* White background for list items */
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Question text styling */
+.question-list span {
+  font-size: 16px;
+  color: #333; /* Dark text for question text */
+}
+
+/* Button to link questions */
+.question-list button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #fff; /* White text */
+  background-color: #28a745; /* Success color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.question-list a{
+  color: darkorange;
+}
+
+/* Button hover effect */
+.question-list button:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
+
+/* Button focus state */
+.question-list button:focus {
+  outline: none;
+}

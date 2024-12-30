@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Debate Club",
+    "category_id": "1"
+  },
+  {
+    "name": "Math Club",
+    "category_id": "1"
+  },
+  {
+    "name": "Science Club",
+    "category_id": "1"
+  },
+  {
+    "name": "Robotics Club",
+    "category_id": "1"
+  },
+  {
+    "name": "Model United Nations (MUN)",
+    "category_id": "1"
+  },
+  {
+    "name": "Academic Decathlon",
+    "category_id": "1"
+  },
+  {
+    "name": "Chess Club",
+    "category_id": "1"
+  },
+  {
+    "name": "Book Club",
+    "category_id": "1"
+  },
+  {
+    "name": "Language Clubs (e.g., Spanish Club, French Club)",
+    "category_id": "1"
+  },
+  {
+    "name": "Quiz Bowl",
+    "category_id": "1"
+  },
+  {
+    "name": "Drama/Theater Club",
+    "category_id": "2"
+  },
+  {
+    "name": "Music Band/Orchestra",
+    "category_id": "2"
+  },
+  {
+    "name": "Choir",
+    "category_id": "2"
+  },
+  {
+    "name": "Dance Team",
+    "category_id": "2"
+  },
+  {
+    "name": "Art Club",
+    "category_id": "2"
+  },
+  {
+    "name": "Photography Club",
+    "category_id": "2"
+  },
+  {
+    "name": "Film Club",
+    "category_id": "2"
+  },
+  {
+    "name": "Writing/Creative Writing Club",
+    "category_id": "2"
+  },
+  {
+    "name": "Cultural Clubs (e.g., African American Student Union, Asian Student Association)",
+    "category_id": "2"
+  },
+  {
+    "name": "Poetry Slam",
+    "category_id": "2"
+  },
+  {
+    "name": "Soccer Team",
+    "category_id": "3"
+  },
+  {
+    "name": "Basketball Team",
+    "category_id": "3"
+  },
+  {
+    "name": "Volleyball Team",
+    "category_id": "3"
+  },
+  {
+    "name": "Track and Field",
+    "category_id": "3"
+  },
+  {
+    "name": "Swimming Team",
+    "category_id": "3"
+  },
+  {
+    "name": "Tennis Team",
+    "category_id": "3"
+  },
+  {
+    "name": "Baseball/Softball Team",
+    "category_id": "3"
+  },
+  {
+    "name": "Cheerleading",
+    "category_id": "3"
+  },
+  {
+    "name": "Gymnastics",
+    "category_id": "3"
+  },
+  {
+    "name": "Martial Arts Club",
+    "category_id": "3"
+  },
+  {
+    "name": "Student Government",
+    "category_id": "4"
+  },
+  {
+    "name": "Key Club",
+    "category_id": "4"
+  },
+  {
+    "name": "National Honor Society",
+    "category_id": "4"
+  },
+  {
+    "name": "Peer Tutoring",
+    "category_id": "4"
+  },
+  {
+    "name": "Environmental Club",
+    "category_id": "4"
+  },
+  {
+    "name": "Community Service/Volunteer Club",
+    "category_id": "4"
+  },
+  {
+    "name": "Red Cross Club",
+    "category_id": "4"
+  },
+  {
+    "name": "Mentoring Programs",
+    "category_id": "4"
+  },
+  {
+    "name": "Scouts (e.g., Boy Scouts, Girl Scouts)",
+    "category_id": "4"
+  },
+  {
+    "name": "Junior Achievement",
+    "category_id": "4"
+  },
+  {
+    "name": "Computer Science Club",
+    "category_id": "5"
+  },
+  {
+    "name": "Coding Club",
+    "category_id": "5"
+  },
+  {
+    "name": "Engineering Club",
+    "category_id": "5"
+  },
+  {
+    "name": "Environmental Science Club",
+    "category_id": "5"
+  },
+  {
+    "name": "Astronomy Club",
+    "category_id": "5"
+  },
+  {
+    "name": "Cybersecurity Club",
+    "category_id": "5"
+  },
+  {
+    "name": "Biotechnology Club",
+    "category_id": "5"
+  },
+  {
+    "name": "3D Printing Club",
+    "category_id": "5"
+  },
+  {
+    "name": "Gaming and E-Sports Club",
+    "category_id": "5"
+  },
+  {
+    "name": "STEM Competitions (e.g., Science Fairs, Math Olympiad)",
+    "category_id": "5"
+  },
+  {
+    "name": "LGBTQ+ Club",
+    "category_id": "6"
+  },
+  {
+    "name": "Debate Team",
+    "category_id": "6"
+  },
+  {
+    "name": "Mock Trial",
+    "category_id": "6"
+  },
+  {
+    "name": "School Newspaper/Journalism Club",
+    "category_id": "6"
+  },
+  {
+    "name": "Yearbook Committee",
+    "category_id": "6"
+  },
+  {
+    "name": "Culinary Club",
+    "category_id": "6"
+  },
+  {
+    "name": "Gardening Club",
+    "category_id": "6"
+  },
+  {
+    "name": "Animal Rights Club",
+    "category_id": "6"
+  },
+  {
+    "name": "Public Speaking Club",
+    "category_id": "6"
+  },
+  {
+    "name": "First Aid/Health Club",
+    "category_id": "6"
+  },
+  {
+    "name": "Business/Entrepreneurship Club",
+    "category_id": "7"
+  },
+  {
+    "name": "Future Business Leaders of America (FBLA)",
+    "category_id": "7"
+  },
+  {
+    "name": "Health Occupations Students of America (HOSA)",
+    "category_id": "7"
+  },
+  {
+    "name": "DECA (Distributive Education Clubs of America)",
+    "category_id": "7"
+  },
+  {
+    "name": "FFA (Future Farmers of America)",
+    "category_id": "7"
+  },
+  {
+    "name": "Internship Programs",
+    "category_id": "7"
+  },
+  {
+    "name": "Job Shadowing",
+    "category_id": "7"
+  },
+  {
+    "name": "Trade and Vocational Clubs (e.g., Automotive, Carpentry)",
+    "category_id": "7"
+  },
+  {
+    "name": "Law Club",
+    "category_id": "7"
+  },
+  {
+    "name": "Financial Literacy Club",
+    "category_id": "7"
+  },
+  {
+    "name": "Hiking/Outdoor Adventure Club",
+    "category_id": "8"
+  },
+  {
+    "name": "Debate and Forensics",
+    "category_id": "8"
+  },
+  {
+    "name": "Sailing Club",
+    "category_id": "8"
+  },
+  {
+    "name": "Social Justice Club",
+    "category_id": "8"
+  },
+  {
+    "name": "Historical Society",
+    "category_id": "8"
+  },
+  {
+    "name": "Knitting and Sewing Club",
+    "category_id": "8"
+  },
+  {
+    "name": "Astronomy Club",
+    "category_id": "8"
+  },
+  {
+    "name": "Board Games Club",
+    "category_id": "8"
+  },
+  {
+    "name": "Quiz Club",
+    "category_id": "8"
+  },
+  {
+    "name": "Robotics Competitions",
+    "category_id": "8"
+  }
+]

@@ -1,0 +1,214 @@
+.container {
+    min-height: 100vh;
+    background: linear-gradient(60deg, #000, #222, #000);
+    padding: 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.backLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #EDC500;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: color 0.2s;
+}
+
+.backLink:hover {
+    color: #FFE44D;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid rgba(237, 197, 0, 0.2);
+}
+
+.header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(237, 197, 0, 0.2);
+}
+
+.name {
+    font-size: 2rem;
+    color: #EDC500;
+    margin-bottom: 1rem;
+}
+
+.contactInfo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    place-items: center;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #cccccc;
+    width: fit-content;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.sectionTitle {
+    font-size: 1.5rem;
+    color: #EDC500;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cvContent {
+    box-sizing: border-box;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+}
+
+.cvCard {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1.25rem 2rem;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+}
+
+.cvSuccess {
+    border-left: 4px solid rgba(134, 255, 100, 0.4);
+}
+
+.cvFail {
+    border-left: 4px solid rgba(255, 98, 54, 0.4);
+}
+
+.cvCard.cvFail p,
+.cvCard.cvSuccess p {
+    color: #ddd;
+}
+
+.cvCard h3 {
+    margin-block: 0;
+    color: #ddd;
+}
+
+.cvCard p {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-block: 0.2rem;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.previewButton {
+    background-color: rgba(237, 197, 0, 0.1);
+    border: 1px solid #EDC500;
+    color: #EDC500;
+}
+
+.previewButton:hover {
+    background-color: rgba(237, 197, 0, 0.2);
+}
+
+.downloadButton {
+    background-color: #EDC500;
+    border: 1px solid #EDC500;
+    color: #000000;
+}
+
+.downloadButton:hover {
+    background-color: #FFE44D;
+}
+
+.loaderContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(60deg, #000, #222, #000);
+    color: white;
+}
+
+.loader {
+    border: 4px solid rgba(237, 197, 0, 0.1);
+    border-top: 4px solid #EDC500;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+.errorContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(60deg, #000, #222, #000);
+    color: white;
+    gap: 1rem;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    .contactInfo {
+        grid-template-columns: 1fr;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+
+    .actions button {
+        width: 100%;
+        justify-content: center;
+    }
+}

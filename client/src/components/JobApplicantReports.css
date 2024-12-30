@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.historical-scores-container {
+  background: linear-gradient(60deg, #000, #222, #000);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.applicant-reports-container .dashboard-navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 10px;
+}
+.applicant-reports-container .dashboard-navbar .job-listings-nav {
+  text-decoration: none;
+  color: #999999;
+  margin-right: 10px;
+}
+.applicant-reports-container .dashboard-navbar .job-listings-nav div {
+  gap: 10px;
+  margin-right: 10px;
+}
+.export .btn {
+  color: #fff623;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #222;
+  padding: 10px 20px;
+  margin: 20px;
+  border: solid 0.5px #fff623;
+  border-radius: 8px;
+}
+.dropdown-menu {
+  position: absolute;
+  padding: 10px 10px;
+  margin: 0px 20px;
+  background-color: #222;
+  border: 0.1px solid #fff623;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.dropdown-menu button {
+  display: block;
+  padding: 10px;
+  color: #fff623;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dropdown-menu button:hover {
+  background-color: #555;
+}
+.candidate-link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.candidate-link:hover {
+  color: #ffeb3b; /* Subtle color change on hover (example: yellow) */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.applicant-reports-container .dashboard-main {
+  padding: 20px;
+  color: white; /* Ensure text remains visible */
+}
+.applicant-reports-container .dashboard-main .tag-and-candidates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.applicant-reports-container .dashboard-main .tag {
+  padding: 10px;
+  background-color: #242424;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size : 16px;
+  color: #fff;
+}
+.applicant-reports-container .dashboard-main .change-weightage-button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.applicant-reports-container .dashboard-main .change-weightage-button:hover {
+  color: #fdc500;
+  background-color: #111;
+}
+.spinner-icon {
+  animation: spin 1s linear infinite;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.applicant-reports-container .dashboard-main .tag-and-candidates .candidates {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #888888;
+  font-size: 14px;
+}
+.applicant-reports-container
+  .dashboard-main
+  .tag-and-candidates
+  .refresh-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.applicant-reports-container
+  .dashboard-main
+  .tag-and-candidates
+  .refresh-button:hover {
+  background-color: #111;
+  color: #edc500;
+}
+
+.applicant-reports-container .dashboard-main .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e8990f; /* Matches your design color */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.applicant-reports-container .dashboard-main .btn:hover {
+  background-color: #c28753; /* Change background on hover */
+}
+/* JobApplicantReports.css */
+
+/* Adjust the overall grid size and spacing */
+.ag-theme-quartz-dark {
+  font-size: 14px;
+  --ag-background-color: #222;
+  --ag-header-background-color: #333;
+  --ag-header-text-color: #fff;
+  --ag-row-hover-color: #222;
+  --ag-row-border-color: #444;
+  --ag-control-panel-background-color: #222;
+}
+
+.ag-root-wrapper {
+  background-color: #222; /* Change to your preferred background color */
+  color: #fff; /* Optional: change text color for better contrast */
+}
+
+/* Header customization */
+.ag-theme-quartz-dark .ag-header {
+  background-color: #222; /* Darker header background */
+  color: #fff; /* Header text color */
+  font-weight: bold;
+}
+
+/* Row customization */
+.ag-theme-quartz-dark .ag-row {
+  color: #e0e0e0; /* Light gray text color for rows */
+}
+
+/* Change row background color on hover */
+.ag-theme-quartz-dark .ag-row-hover {
+  background-color: #222; /* Lighter gray for row hover */
+}
+
+/* Header cell customization */
+.ag-theme-quartz-dark .ag-header-cell {
+  border-bottom: 1px solid #222;
+}
+
+/* Alternate row styling */
+.ag-theme-quartz-dark .ag-row {
+  background-color: #222;
+}
+
+/* Scrollbar customization */
+.ag-theme-quartz-dark .ag-body-viewport::-webkit-scrollbar {
+  width: 12px; /* Width of the vertical scrollbar */
+  height: 12px; /* Height of the horizontal scrollbar */
+}
+
+.ag-theme-quartz-dark .ag-body-viewport::-webkit-scrollbar-thumb {
+  background-color: #222; /* Thumb color */
+  border-radius: 6px; /* Rounded edges for the scrollbar */
+}
+
+.ag-theme-quartz-dark .ag-body-viewport::-webkit-scrollbar-thumb:hover {
+  background-color: #222; /* Lighter thumb color on hover */
+}
+
+.ag-theme-quartz-dark .ag-body-viewport::-webkit-scrollbar-track {
+  background-color: #2a2a2a; /* Track background color */
+}
+
+/* Customize the control buttons */
+.ag-theme-quartz-dark .ag-button {
+  background-color: #222; /* Dark background for buttons */
+  color: #fff; /* White text */
+  border: 1px solid #555; /* Slightly lighter border */
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.ag-theme-quartz-dark .ag-button:hover {
+  background-color: #222; /* Lighter background on hover */
+  border-color: #666; /* Lighter border on hover */
+}
+
+/* Pagination control styling */
+.ag-theme-quartz-dark .ag-paging-button {
+  background-color: #222; /* Button background */
+  color: #fff; /* Button text color */
+  border: 1px solid #222; /* Border for buttons */
+  border-radius: 4px;
+  padding: 5px 8px;
+}
+
+.ag-theme-quartz-dark .ag-paging-button:hover {
+  background-color: #222;
+}
+
+/* Pagination text and icon */
+.ag-theme-quartz-dark .ag-paging-text {
+  color: #fff;
+}
+
+.ag-theme-quartz-dark .ag-paging-icon {
+  fill: #fff;
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0px;
+  border-radius: 15px;
+  border: 1px solid #edc500;
+}
+table {
+  border-radius: 30px;
+  border: 2px solid #edc500;
+}
+
+.reports-table th,
+.reports-table td {
+  border: 1px solid #333;
+  padding: 12px 15px;
+  color: #fff;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.reports-table th {
+  background-color: #222;
+  font-weight: 500;
+  color: #edc500;
+  text-transform: uppercase;
+}
+
+.reports-table td {
+  background-color: #1a1a1a;
+}
+
+.reports-table input[type="number"] {
+  width: 80px;
+  padding: 6px;
+  background-color: #222;
+  border: 1px solid #444;
+  color: #fff;
+}
+
+.reports-table input[type="number"]:focus {
+  outline: none;
+  border-color: #edc500;
+}
+
+.reports-table tr:hover {
+  background-color: #3a3a3a;
+}
+
+.applicant-reports-container .table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.evaluation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.evaluation-table th,
+.evaluation-table td {
+  border: 1px solid #555; /* Dark border for table */
+  padding: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.evaluation-table th {
+  background-color: #444;
+  font-weight: bold;
+}
+
+.evaluation-table td {
+  background-color: #2a2a2a; /* Darker background for table rows */
+}
+
+.save-weightage-btn {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-weightage-btn:hover {
+  background-color: #1a1a1a;
+  color: #edc500;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #edc500;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+.loader-text {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.shortlist-reject-email-button{
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shortlist-reject-email-button:hover{
+  background-color: #111;
+  color : #edc500;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .historical-scores-container {
+    padding: 10px;
+  }
+
+  .evaluation-table th,
+  .evaluation-table td {
+    padding: 8px;
+  }
+}

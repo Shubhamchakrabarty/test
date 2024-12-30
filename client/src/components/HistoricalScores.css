@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.historical-scores-page-container {
+  background: linear-gradient(60deg, #000, #222, #000);
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+}
+.historical-scores-page-container .signup-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 10px;
+}
+.historical-scores-page-container .signup-navbar .job-listings-nav {
+  text-decoration: none;
+  color: #999999;
+  margin-right: 10px;
+}
+.historical-scores-page-container .signup-navbar .job-listings-nav div {
+  gap: 10px;
+  margin-right: 10px;
+}
+.export .btn {
+  color: #fff623;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #222;
+  padding: 10px 20px;
+  margin: 20px;
+  border: solid 0.5px #fff623;
+  border-radius: 8px;
+}
+.dropdown-menu {
+  position: absolute;
+  padding: 10px 10px;
+  margin: 0px 20px;
+  background-color: #222;
+  border: 0.1px solid #fff623;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.dropdown-menu button {
+  display: block;
+  padding: 10px;
+  color: #fff623;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #edc500;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+.candidate-name {
+  margin-left: 1.5rem;
+}
+
+.dropdown-menu button:hover {
+  background-color: #555;
+}
+.historical-scores-page-container .interview-section {
+  align-items: center;
+  justify-content: center;
+}
+
+.historical-scores-page-container .interview-toggle,
+.attempt-toggle {
+  width: -webkit-fill-available;
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px 20px;
+  background-color: #2a2a2a; /* Dark background for dropdown */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.historical-scores-page-container .interview-toggle:hover,
+.attempt-toggle:hover {
+  background-color: #444; /* Slight hover effect */
+}
+
+.historical-scores-page-container .interview-details,
+.attempt-details {
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: #3c3c3c;
+  border-left: 4px solid #fff623; /* Left border to highlight */
+  border-radius: 5px;
+}
+
+.evaluation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.evaluation-table th,
+.evaluation-table td {
+  border: 1px solid #555; /* Dark border for table */
+  padding: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.evaluation-table th {
+  background-color: #444;
+  font-weight: bold;
+}
+
+.evaluation-table td {
+  background-color: #2a2a2a; /* Darker background for table rows */
+}
+
+.historical-scores-page-container .btn {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.historical-scores-page-container.btn:hover {
+  background-color: #fff623; /* Hover effect */
+}
+
+.historical-scores-page-container .interview-details,
+.attempt-details {
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  overflow: hidden;
+}
+
+/* Video Section Styling */
+.video-section {
+  margin-bottom: 20px; /* Add space below the video section */
+  text-align: center; /* Center align the video and heading */
+}
+
+.video-section h3 {
+  color: #fff623; /* Highlighted heading color */
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.video-player {
+  width: 75%; /* Make the video responsive */
+  max-width: 400px; /* Limit the maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #fff623; /* Add a border around the video */
+  border-radius: 8px; /* Rounded corners for the video */
+  background-color: #000; /* Dark background for better contrast */
+  overflow: hidden; /* Ensure proper border appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+/* Media queries to ensure responsiveness */
+@media (max-width: 768px) {
+  .historical-scores-page-container {
+    padding: 10px;
+  }
+
+  .interview-toggle,
+  .attempt-toggle {
+    font-size: 14px;
+  }
+
+  .evaluation-table th,
+  .evaluation-table td {
+    padding: 8px;
+  }
+}
+.audio-control-btn {
+  background-color: black;
+  border: 2px solid #fff623;
+  color: #fff623;
+  padding: 8px 16px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.audio-control-btn:hover {
+  background-color: #fff623;
+  color: black;
+}
+
+.audio-control-btn:active {
+  transform: scale(0.98);
+}
+
+.video-player {
+  max-width: 80%; /* Full width on smaller devices */
+}
+
+/* Add to your existing CSS */
+/* .evaluation-table td:last-child {
+  text-align: center;
+  width: 120px;
+} */
+
+/* Ensure the audio column doesn't wrap */
+/* .evaluation-table th:last-child,
+.evaluation-table td:last-child {
+  white-space: nowrap;
+} */

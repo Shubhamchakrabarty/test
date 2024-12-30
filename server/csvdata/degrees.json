@@ -1,0 +1,470 @@
+[
+  {
+    "course": "B Com",
+    "description": "Bachelor of commerce"
+  },
+  {
+    "course": "B Sc",
+    "description": "Bachelor of Science"
+  },
+  {
+    "course": "BA",
+    "description": "Bachelor of Arts"
+  },
+  {
+    "course": "BACHELOR OF MUSIC",
+    "description": "BACHELOR OF MUSIC"
+  },
+  {
+    "course": "BBA",
+    "description": "Bachelor of Busines Administration"
+  },
+  {
+    "course": "BBS",
+    "description": "Bachelor of Business Studies"
+  },
+  {
+    "course": "BCA",
+    "description": "Bachelor of Computer Application"
+  },
+  {
+    "course": "BFA",
+    "description": "Bachelor of Fine Arts"
+  },
+  {
+    "course": "BFSc",
+    "description": "Bachelor of Fisheries Science"
+  },
+  {
+    "course": "BSW",
+    "description": "Bachelor of Social Work"
+  },
+  {
+    "course": "INTEGRATED B Sc",
+    "description": "INTEGRATED B Sc"
+  },
+  {
+    "course": "INTEGRATED BA",
+    "description": "INTEGRATED BA"
+  },
+  {
+    "course": "M Com",
+    "description": "Master of Commerce"
+  },
+  {
+    "course": "M Sc",
+    "description": "Master of Science"
+  },
+  {
+    "course": "MA",
+    "description": "Master of Arts"
+  },
+  {
+    "course": "MSW",
+    "description": "Master of Social Work"
+  },
+  {
+    "course": "Ayurveda PG",
+    "description": "AYURVEDA PG"
+  },
+  {
+    "course": "Bachelor of Physio Therapy",
+    "description": "Bachelor of Physio Therapy"
+  },
+  {
+    "course": "BAMS",
+    "description": "Bachelor of Ayurvedic Medical Sciences"
+  },
+  {
+    "course": "BDS",
+    "description": "Bachelor of dental surgery"
+  },
+  {
+    "course": "BHMS",
+    "description": "Bachelor of Homeopathy Medicine & Surgery"
+  },
+  {
+    "course": "BLT",
+    "description": "Bachelor of Lab Technology"
+  },
+  {
+    "course": "BNYS",
+    "description": "Bachelor of Naturopathy and Yogic Science"
+  },
+  {
+    "course": "BPT",
+    "description": "Bachelor of Physioptherapy"
+  },
+  {
+    "course": "BUMS",
+    "description": "Bachelor of Unani Medicine & Surgery"
+  },
+  {
+    "course": "DA",
+    "description": "Diploma in Anaesthetics"
+  },
+  {
+    "course": "DFM (FORENSIC)",
+    "description": "Diploma in Forensic Medicine"
+  },
+  {
+    "course": "DM",
+    "description": "Doctor of Medicine"
+  },
+  {
+    "course": "DOMS (OPTHOLMOLOGY)",
+    "description": "Diploma in Ophthalmic Medicine and Surgery"
+  },
+  {
+    "course": "Master of Public Health",
+    "description": "Master of Public Health"
+  },
+  {
+    "course": "MBBS",
+    "description": "Bachelor of Medicine and Bachelor of Surgery"
+  },
+  {
+    "course": "MD",
+    "description": "Medical degrees"
+  },
+  {
+    "course": "MDS",
+    "description": "Master of Dental Surgery"
+  },
+  {
+    "course": "MHA(HEALTH)",
+    "description": "Master of Health Administration"
+  },
+  {
+    "course": "MPT",
+    "description": "Master of Physiotherapy"
+  },
+  {
+    "course": "MS (Medical)",
+    "description": "MS (Medical)"
+  },
+  {
+    "course": "MVSC",
+    "description": "Master of Veterinary Science"
+  },
+  {
+    "course": "Pharm D Post baccalaureate",
+    "description": "Pharm D Post baccalaureate"
+  },
+  {
+    "course": "Pharma D",
+    "description": "Pharma D"
+  },
+  {
+    "course": "PHD",
+    "description": "Dr. of Philosophy"
+  },
+  {
+    "course": "Advanced Diploma Courses",
+    "description": "Advanced Diploma Courses"
+  },
+  {
+    "course": "Allied health science",
+    "description": "Allied health science"
+  },
+  {
+    "course": "ANM",
+    "description": "ANM"
+  },
+  {
+    "course": "B Com LLB",
+    "description": "Bachelor of Commerce & Law"
+  },
+  {
+    "course": "B Desgn",
+    "description": "Bachelor of Designs"
+  },
+  {
+    "course": "B Ed",
+    "description": "Bachelor of Education"
+  },
+  {
+    "course": "B PEd",
+    "description": "Bachelor of Physical Education"
+  },
+  {
+    "course": "B Pharma",
+    "description": "Bachelor of Pharmacy"
+  },
+  {
+    "course": "B Plan",
+    "description": "Bachelor of Planning"
+  },
+  {
+    "course": "B Sc (Nursing)",
+    "description": "Bachelor of Science (Nursing)"
+  },
+  {
+    "course": "B Voc",
+    "description": "Bachelor of Vocational"
+  },
+  {
+    "course": "BA LLB",
+    "description": "Bachelor of Arts & Law"
+  },
+  {
+    "course": "BBA LLB",
+    "description": "Bachelor of Busines Administration & Law"
+  },
+  {
+    "course": "BCJ",
+    "description": "Bachelor of Communication & Journalism"
+  },
+  {
+    "course": "BHA",
+    "description": "Bachelors in Hospital Administration"
+  },
+  {
+    "course": "BHM",
+    "description": "Bachelor of Hotel management"
+  },
+  {
+    "course": "BLS",
+    "description": "Bachelor of Library Sciencce"
+  },
+  {
+    "course": "BNg",
+    "description": "Bachelor of Nursing"
+  },
+  {
+    "course": "BPA",
+    "description": "Bachelor of Performance Arts"
+  },
+  {
+    "course": "BPH",
+    "description": "Bachelors in public Health"
+  },
+  {
+    "course": "BSc Ed",
+    "description": "Bachelors in Science- Education"
+  },
+  {
+    "course": "BTA",
+    "description": "Bachelor of Tourism Administration"
+  },
+  {
+    "course": "BTH",
+    "description": "Bachelor of Tourism & Hospitality"
+  },
+  {
+    "course": "BTTM",
+    "description": "Bachelor of Travel & Tourism Management"
+  },
+  {
+    "course": "BVA",
+    "description": "Bachelor of Visual Arts"
+  },
+  {
+    "course": "BVOC",
+    "description": "Bachelor of Vocation"
+  },
+  {
+    "course": "BVSC",
+    "description": "Bachelor of Veterinary Science"
+  },
+  {
+    "course": "BVSc and AH",
+    "description": "Bachelor of Veterinary Science & Animal Husbandary"
+  },
+  {
+    "course": "CARDIOLOGY TECHNICIAN",
+    "description": "CARDIOLOGY TECHNICIAN"
+  },
+  {
+    "course": "D Ed",
+    "description": "Diplamo in Education"
+  },
+  {
+    "course": "D Pharma",
+    "description": "Diplamo in Pharmacy"
+  },
+  {
+    "course": "DENTAL HYGENIST",
+    "description": "DENTAL HYGENIST"
+  },
+  {
+    "course": "Diploma Courses",
+    "description": "Diploma Courses"
+  },
+  {
+    "course": "Integrated MBA",
+    "description": "Integrated MBA"
+  },
+  {
+    "course": "ITI Courses",
+    "description": "ITI Courses"
+  },
+  {
+    "course": "LLB",
+    "description": "Bachelor of Law"
+  },
+  {
+    "course": "LLM",
+    "description": "Masters of Laws"
+  },
+  {
+    "course": "M Desgn",
+    "description": "Master of Design"
+  },
+  {
+    "course": "M Ed",
+    "description": "Master of Education"
+  },
+  {
+    "course": "M PED",
+    "description": "Master of Physical Education"
+  },
+  {
+    "course": "M Pharma",
+    "description": "Master of Pharmacy"
+  },
+  {
+    "course": "M Phil",
+    "description": "Master of Philosophy"
+  },
+  {
+    "course": "M Sc (NURSING)",
+    "description": "M Sc (NURSING)"
+  },
+  {
+    "course": "MIM",
+    "description": "Master in Marketing"
+  },
+  {
+    "course": "MIB",
+    "description": "Master of International Business"
+  },
+  {
+    "course": "MBA",
+    "description": "Master of Business Administration"
+  },
+  {
+    "course": "MBE",
+    "description": "Master of Business Economics"
+  },
+  {
+    "course": "MBS",
+    "description": "Master of Business Studies"
+  },
+  {
+    "course": "MCA",
+    "description": "Master of Computer Application"
+  },
+  {
+    "course": "MCJ",
+    "description": "Master of Communication Journalism"
+  },
+  {
+    "course": "MFA",
+    "description": "Master of Finance and Accounting"
+  },
+  {
+    "course": "MFM",
+    "description": "Master of Fashion Management"
+  },
+  {
+    "course": "MHM",
+    "description": "Master of Hotel Management"
+  },
+  {
+    "course": "MHM",
+    "description": "Master of Hospital Management"
+  },
+  {
+    "course": "MHRD",
+    "description": "MHRD"
+  },
+  {
+    "course": "MIT",
+    "description": "Medical Imaging Technology"
+  },
+  {
+    "course": "MLT",
+    "description": "Medical Lab Technology"
+  },
+  {
+    "course": "MMS",
+    "description": "Master of Management Studies"
+  },
+  {
+    "course": "MPA",
+    "description": "Master of Performing Arts"
+  },
+  {
+    "course": "MPH",
+    "description": "Masters in public Health"
+  },
+  {
+    "course": "MPVA",
+    "description": "MULTI PURPOSE VETERINARY ASSISTANT"
+  },
+  {
+    "course": "MS (Professional)",
+    "description": "MS (Professional)"
+  },
+  {
+    "course": "MTA",
+    "description": "Master of Tourism Administration"
+  },
+  {
+    "course": "NST",
+    "description": "Nursery Training"
+  },
+  {
+    "course": "PBBSC(NURSING)",
+    "description": "PBBSC(NURSING)"
+  },
+  {
+    "course": "Post Graduation Diploma Cours",
+    "description": "Post Graduation Diploma Courses"
+  },
+  {
+    "course": "Aircraft Maintenance Engineering",
+    "description": "Aircraft Maintenance Engineering"
+  },
+  {
+    "course": "B Arch",
+    "description": "Bachelor of Architech"
+  },
+  {
+    "course": "B Tech",
+    "description": "Bachelor of Technology"
+  },
+  {
+    "course": "BE",
+    "description": "Bachelor of Engineering"
+  },
+  {
+    "course": "BFT",
+    "description": "Bachelor of Fashion Technology"
+  },
+  {
+    "course": "INTEGRATED ENGINEERING B TECH",
+    "description": "INTEGRATED ENGINEERING B TECH"
+  },
+  {
+    "course": "M Arch",
+    "description": "Master of Architechture"
+  },
+  {
+    "course": "M Tech",
+    "description": "Master of Technology"
+  },
+  {
+    "course": "ME",
+    "description": "Master of Engineering"
+  },
+  {
+    "course": "MFT",
+    "description": "Master of Fashion Technology"
+  },
+  {
+    "course": "MS (Technical)",
+    "description": "MS (Technical)"
+  }
+]

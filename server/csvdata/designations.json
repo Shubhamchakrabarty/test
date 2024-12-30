@@ -1,0 +1,1382 @@
+[
+  {
+    "name": "Marketing Specialist"
+  },
+  {
+    "name": "Marketing Manager"
+  },
+  {
+    "name": "Marketing Director"
+  },
+  {
+    "name": "Graphic Designer"
+  },
+  {
+    "name": "Marketing Research Analyst"
+  },
+  {
+    "name": "Marketing Communications Manager"
+  },
+  {
+    "name": "Marketing Consultant"
+  },
+  {
+    "name": "Product Manager"
+  },
+  {
+    "name": "Public Relations"
+  },
+  {
+    "name": "Social Media Assistant"
+  },
+  {
+    "name": "Brand Manager"
+  },
+  {
+    "name": "SEO Manager"
+  },
+  {
+    "name": "Content Marketing Manager"
+  },
+  {
+    "name": "Copywriter"
+  },
+  {
+    "name": "Media Buyer"
+  },
+  {
+    "name": "Digital Marketing Manager"
+  },
+  {
+    "name": "eCommerce Marketing Specialist"
+  },
+  {
+    "name": "Brand Strategist"
+  },
+  {
+    "name": "Vice President of Marketing"
+  },
+  {
+    "name": "Media Relations Coordinator"
+  },
+  {
+    "name": "Administrative Assistant"
+  },
+  {
+    "name": "Receptionist"
+  },
+  {
+    "name": "Office Manager"
+  },
+  {
+    "name": "Auditing Clerk"
+  },
+  {
+    "name": "Bookkeeper"
+  },
+  {
+    "name": "Account Executive"
+  },
+  {
+    "name": "Branch Manager"
+  },
+  {
+    "name": "Business Manager"
+  },
+  {
+    "name": "Quality Control Coordinator"
+  },
+  {
+    "name": "Administrative Manager"
+  },
+  {
+    "name": "Chief Executive Officer"
+  },
+  {
+    "name": "Business Analyst"
+  },
+  {
+    "name": "Risk Manager"
+  },
+  {
+    "name": "Human Resources"
+  },
+  {
+    "name": "Office Assistant"
+  },
+  {
+    "name": "Secretary"
+  },
+  {
+    "name": "Office Clerk"
+  },
+  {
+    "name": "File Clerk"
+  },
+  {
+    "name": "Account Collector"
+  },
+  {
+    "name": "Administrative Specialist"
+  },
+  {
+    "name": "Executive Assistant"
+  },
+  {
+    "name": "Program Administrator"
+  },
+  {
+    "name": "Program Manager"
+  },
+  {
+    "name": "Administrative Analyst"
+  },
+  {
+    "name": "Data Entry"
+  },
+  {
+    "name": "CEO—Chief Executive Officer"
+  },
+  {
+    "name": "COO—Chief Operating Officer"
+  },
+  {
+    "name": "CFO—Chief Financial Officer"
+  },
+  {
+    "name": "CIO—Chief Information Officer"
+  },
+  {
+    "name": "CTO—Chief Technology Officer"
+  },
+  {
+    "name": "CMO—Chief Marketing Officer"
+  },
+  {
+    "name": "CHRO—Chief Human Resources Officer"
+  },
+  {
+    "name": "CDO—Chief Data Officer"
+  },
+  {
+    "name": "CPO—Chief Product Officer"
+  },
+  {
+    "name": "CCO—Chief Customer Officer"
+  },
+  {
+    "name": "Team Leader"
+  },
+  {
+    "name": "Manager"
+  },
+  {
+    "name": "Assistant Manager"
+  },
+  {
+    "name": "Executive"
+  },
+  {
+    "name": "Director"
+  },
+  {
+    "name": "Coordinator"
+  },
+  {
+    "name": "Administrator"
+  },
+  {
+    "name": "Controller"
+  },
+  {
+    "name": "Officer"
+  },
+  {
+    "name": "Organizer"
+  },
+  {
+    "name": "Supervisor"
+  },
+  {
+    "name": "Superintendent"
+  },
+  {
+    "name": "Head"
+  },
+  {
+    "name": "Overseer"
+  },
+  {
+    "name": "Chief"
+  },
+  {
+    "name": "Foreman"
+  },
+  {
+    "name": "Controller"
+  },
+  {
+    "name": "Principal"
+  },
+  {
+    "name": "President"
+  },
+  {
+    "name": "Lead"
+  },
+  {
+    "name": "Computer Scientist"
+  },
+  {
+    "name": "IT Professional"
+  },
+  {
+    "name": "UX Designer & UI Developer"
+  },
+  {
+    "name": "SQL Developer"
+  },
+  {
+    "name": "Web Designer"
+  },
+  {
+    "name": "Web Developer"
+  },
+  {
+    "name": "Help Desk Worker/Desktop Support"
+  },
+  {
+    "name": "Software Engineer"
+  },
+  {
+    "name": "Data Entry"
+  },
+  {
+    "name": "DevOps Engineer"
+  },
+  {
+    "name": "Computer Programmer"
+  },
+  {
+    "name": "Network Administrator"
+  },
+  {
+    "name": "Information Security Analyst"
+  },
+  {
+    "name": "Artificial Intelligence Engineer"
+  },
+  {
+    "name": "Cloud Architect"
+  },
+  {
+    "name": "IT Manager"
+  },
+  {
+    "name": "Technical Specialist"
+  },
+  {
+    "name": "Application Developer"
+  },
+  {
+    "name": "Chief Technology Officer (CTO)"
+  },
+  {
+    "name": "Chief Information Officer (CIO)"
+  },
+  {
+    "name": "Sales Associate"
+  },
+  {
+    "name": "Sales Representative"
+  },
+  {
+    "name": "Sales Manager"
+  },
+  {
+    "name": "Retail Worker"
+  },
+  {
+    "name": "Store Manager"
+  },
+  {
+    "name": "Sales Representative"
+  },
+  {
+    "name": "Sales Manager"
+  },
+  {
+    "name": "Real Estate Broker"
+  },
+  {
+    "name": "Sales Associate"
+  },
+  {
+    "name": "Cashier"
+  },
+  {
+    "name": "Store Manager"
+  },
+  {
+    "name": "Account Executive"
+  },
+  {
+    "name": "Account Manager"
+  },
+  {
+    "name": "Area Sales Manager"
+  },
+  {
+    "name": "Direct Salesperson"
+  },
+  {
+    "name": "Director of Inside Sales"
+  },
+  {
+    "name": "Outside Sales Manager"
+  },
+  {
+    "name": "Sales Analyst"
+  },
+  {
+    "name": "Market Development Manager"
+  },
+  {
+    "name": "B2B Sales Specialist"
+  },
+  {
+    "name": "Sales Engineer"
+  },
+  {
+    "name": "Merchandising Associate"
+  },
+  {
+    "name": "Construction Worker"
+  },
+  {
+    "name": "Taper"
+  },
+  {
+    "name": "Plumber"
+  },
+  {
+    "name": "Heavy Equipment Operator"
+  },
+  {
+    "name": "Vehicle or Equipment Cleaner"
+  },
+  {
+    "name": "Carpenter"
+  },
+  {
+    "name": "Electrician"
+  },
+  {
+    "name": "Painter"
+  },
+  {
+    "name": "Welder"
+  },
+  {
+    "name": "Handyman"
+  },
+  {
+    "name": "Boilermaker"
+  },
+  {
+    "name": "Crane Operator"
+  },
+  {
+    "name": "Building Inspector"
+  },
+  {
+    "name": "Pipefitter"
+  },
+  {
+    "name": "Sheet Metal Worker"
+  },
+  {
+    "name": "Iron Worker"
+  },
+  {
+    "name": "Mason"
+  },
+  {
+    "name": "Roofer"
+  },
+  {
+    "name": "Solar Photovoltaic Installer"
+  },
+  {
+    "name": "Well Driller"
+  },
+  {
+    "name": "Proprietor"
+  },
+  {
+    "name": "Principal"
+  },
+  {
+    "name": "Owner"
+  },
+  {
+    "name": "President"
+  },
+  {
+    "name": "Founder"
+  },
+  {
+    "name": "Administrator"
+  },
+  {
+    "name": "Director"
+  },
+  {
+    "name": "Managing Partner"
+  },
+  {
+    "name": "Managing Member"
+  },
+  {
+    "name": "Board of Directors"
+  },
+  {
+    "name": "C-Level or C-Suite."
+  },
+  {
+    "name": "Shareholders"
+  },
+  {
+    "name": "Managers"
+  },
+  {
+    "name": "Supervisors"
+  },
+  {
+    "name": "Front-Line Employees"
+  },
+  {
+    "name": "Quality Control"
+  },
+  {
+    "name": "Human Resources"
+  },
+  {
+    "name": "Accounting Staff"
+  },
+  {
+    "name": "Marketing Staff"
+  },
+  {
+    "name": "Purchasing Staff"
+  },
+  {
+    "name": "Shipping and Receiving Staff"
+  },
+  {
+    "name": "Office Manager"
+  },
+  {
+    "name": "Receptionist"
+  },
+  {
+    "name": "Virtual Assistant"
+  },
+  {
+    "name": "Customer Service"
+  },
+  {
+    "name": "Customer Support"
+  },
+  {
+    "name": "Concierge"
+  },
+  {
+    "name": "Help Desk"
+  },
+  {
+    "name": "Customer Service Manager"
+  },
+  {
+    "name": "Technical Support Specialist"
+  },
+  {
+    "name": "Account Representative"
+  },
+  {
+    "name": "Client Service Specialist"
+  },
+  {
+    "name": "Customer Care Associate"
+  },
+  {
+    "name": "Operations Manager"
+  },
+  {
+    "name": "Operations Assistant"
+  },
+  {
+    "name": "Operations Coordinator"
+  },
+  {
+    "name": "Operations Analyst"
+  },
+  {
+    "name": "Operations Director"
+  },
+  {
+    "name": "Vice President of Operations"
+  },
+  {
+    "name": "Operations Professional"
+  },
+  {
+    "name": "Scrum Master"
+  },
+  {
+    "name": "Continuous Improvement Lead"
+  },
+  {
+    "name": "Continuous Improvement Consultant"
+  },
+  {
+    "name": "Credit Authorizer"
+  },
+  {
+    "name": "Benefits Manager"
+  },
+  {
+    "name": "Credit Counselor"
+  },
+  {
+    "name": "Accountant"
+  },
+  {
+    "name": "Bookkeeper"
+  },
+  {
+    "name": "Accounting Analyst"
+  },
+  {
+    "name": "Accounting Director"
+  },
+  {
+    "name": "Accounts Payable/Receivable Clerk"
+  },
+  {
+    "name": "Auditor"
+  },
+  {
+    "name": "Budget Analyst"
+  },
+  {
+    "name": "Controller"
+  },
+  {
+    "name": "Financial Analyst"
+  },
+  {
+    "name": "Finance Manager"
+  },
+  {
+    "name": "Economist"
+  },
+  {
+    "name": "Payroll Manager"
+  },
+  {
+    "name": "Payroll Clerk"
+  },
+  {
+    "name": "Financial Planner"
+  },
+  {
+    "name": "Financial Services Representative"
+  },
+  {
+    "name": "Finance Director"
+  },
+  {
+    "name": "Commercial Loan Officer"
+  },
+  {
+    "name": "Engineer"
+  },
+  {
+    "name": "Mechanical Engineer"
+  },
+  {
+    "name": "Civil Engineer"
+  },
+  {
+    "name": "Electrical Engineer"
+  },
+  {
+    "name": "Assistant Engineer"
+  },
+  {
+    "name": "Chemical Engineer"
+  },
+  {
+    "name": "Chief Engineer"
+  },
+  {
+    "name": "Drafter"
+  },
+  {
+    "name": "Engineering Technician"
+  },
+  {
+    "name": "Geological Engineer"
+  },
+  {
+    "name": "Biological Engineer"
+  },
+  {
+    "name": "Maintenance Engineer"
+  },
+  {
+    "name": "Mining Engineer"
+  },
+  {
+    "name": "Nuclear Engineer"
+  },
+  {
+    "name": "Petroleum Engineer"
+  },
+  {
+    "name": "Plant Engineer"
+  },
+  {
+    "name": "Production Engineer"
+  },
+  {
+    "name": "Quality Engineer"
+  },
+  {
+    "name": "Safety Engineer"
+  },
+  {
+    "name": "Sales Engineer"
+  },
+  {
+    "name": "Chief People Officer"
+  },
+  {
+    "name": "VP of Miscellaneous Stuff"
+  },
+  {
+    "name": "Chief Robot Whisperer"
+  },
+  {
+    "name": "Director of First Impressions"
+  },
+  {
+    "name": "Culture Operations Manager"
+  },
+  {
+    "name": "Director of Ethical Hacking"
+  },
+  {
+    "name": "Software Ninjaneer"
+  },
+  {
+    "name": "Director of Bean Counting"
+  },
+  {
+    "name": "Digital Overlord"
+  },
+  {
+    "name": "Director of Storytelling"
+  },
+  {
+    "name": "Researcher"
+  },
+  {
+    "name": "Research Assistant"
+  },
+  {
+    "name": "Data Analyst"
+  },
+  {
+    "name": "Business Analyst"
+  },
+  {
+    "name": "Financial Analyst"
+  },
+  {
+    "name": "Biostatistician"
+  },
+  {
+    "name": "Title Researcher"
+  },
+  {
+    "name": "Market Researcher"
+  },
+  {
+    "name": "Title Analyst"
+  },
+  {
+    "name": "Medical Researcher"
+  },
+  {
+    "name": "Mentor"
+  },
+  {
+    "name": "Tutor/Online Tutor"
+  },
+  {
+    "name": "Teacher"
+  },
+  {
+    "name": "Teaching Assistant"
+  },
+  {
+    "name": "Substitute Teacher"
+  },
+  {
+    "name": "Preschool Teacher"
+  },
+  {
+    "name": "Test Scorer"
+  },
+  {
+    "name": "Online ESL Instructor"
+  },
+  {
+    "name": "Professor"
+  },
+  {
+    "name": "Assistant Professor"
+  },
+  {
+    "name": "Graphic Designer"
+  },
+  {
+    "name": "Artist"
+  },
+  {
+    "name": "Interior Designer"
+  },
+  {
+    "name": "Video Editor"
+  },
+  {
+    "name": "Video or Film Producer"
+  },
+  {
+    "name": "Playwright"
+  },
+  {
+    "name": "Musician"
+  },
+  {
+    "name": "Novelist/Writer"
+  },
+  {
+    "name": "Computer Animator"
+  },
+  {
+    "name": "Photographer"
+  },
+  {
+    "name": "Camera Operator"
+  },
+  {
+    "name": "Sound Engineer"
+  },
+  {
+    "name": "Motion Picture Director"
+  },
+  {
+    "name": "Actor"
+  },
+  {
+    "name": "Music Producer"
+  },
+  {
+    "name": "Director of Photography"
+  },
+  {
+    "name": "Nurse"
+  },
+  {
+    "name": "Travel Nurse"
+  },
+  {
+    "name": "Nurse Practitioner"
+  },
+  {
+    "name": "Doctor"
+  },
+  {
+    "name": "Caregiver"
+  },
+  {
+    "name": "CNA"
+  },
+  {
+    "name": "Physical Therapist"
+  },
+  {
+    "name": "Pharmacist"
+  },
+  {
+    "name": "Pharmacy Assistant"
+  },
+  {
+    "name": "Medical Administrator"
+  },
+  {
+    "name": "Medical Laboratory Tech"
+  },
+  {
+    "name": "Physical Therapy Assistant"
+  },
+  {
+    "name": "Massage Therapy"
+  },
+  {
+    "name": "Dental Hygienist"
+  },
+  {
+    "name": "Orderly"
+  },
+  {
+    "name": "Personal Trainer"
+  },
+  {
+    "name": "Massage Therapy"
+  },
+  {
+    "name": "Medical Laboratory Tech"
+  },
+  {
+    "name": "Phlebotomist"
+  },
+  {
+    "name": "Medical Transcriptionist"
+  },
+  {
+    "name": "Telework Nurse/Doctor"
+  },
+  {
+    "name": "Reiki Practitioner"
+  },
+  {
+    "name": "Housekeeper"
+  },
+  {
+    "name": "Flight Attendant"
+  },
+  {
+    "name": "Travel Agent"
+  },
+  {
+    "name": "Hotel Front Door Greeter"
+  },
+  {
+    "name": "Bellhop"
+  },
+  {
+    "name": "Cruise Director"
+  },
+  {
+    "name": "Entertainment Specialist"
+  },
+  {
+    "name": "Hotel Manager"
+  },
+  {
+    "name": "Front Desk Associate"
+  },
+  {
+    "name": "Front Desk Manager"
+  },
+  {
+    "name": "Concierge"
+  },
+  {
+    "name": "Group Sales"
+  },
+  {
+    "name": "Event Planner"
+  },
+  {
+    "name": "Porter"
+  },
+  {
+    "name": "Spa Manager"
+  },
+  {
+    "name": "Wedding Coordinator"
+  },
+  {
+    "name": "Cruise Ship Attendant"
+  },
+  {
+    "name": "Casino Host"
+  },
+  {
+    "name": "Hotel Receptionist"
+  },
+  {
+    "name": "Reservationist"
+  },
+  {
+    "name": "Events Manager"
+  },
+  {
+    "name": "Meeting Planner"
+  },
+  {
+    "name": "Lodging Manager"
+  },
+  {
+    "name": "Director of Maintenance"
+  },
+  {
+    "name": "Valet"
+  },
+  {
+    "name": "Waiter/Waitress"
+  },
+  {
+    "name": "Server"
+  },
+  {
+    "name": "Chef"
+  },
+  {
+    "name": "Fast Food Worker"
+  },
+  {
+    "name": "Barista"
+  },
+  {
+    "name": "Line Cook"
+  },
+  {
+    "name": "Cafeteria Worker"
+  },
+  {
+    "name": "Restaurant Manager"
+  },
+  {
+    "name": "Wait Staff Manager"
+  },
+  {
+    "name": "Bus Person"
+  },
+  {
+    "name": "Restaurant Chain Executive"
+  },
+  {
+    "name": "Political Scientist"
+  },
+  {
+    "name": "Chemist"
+  },
+  {
+    "name": "Conservation Scientist"
+  },
+  {
+    "name": "Sociologist"
+  },
+  {
+    "name": "Biologist"
+  },
+  {
+    "name": "Geologist"
+  },
+  {
+    "name": "Physicist"
+  },
+  {
+    "name": "Astronomer"
+  },
+  {
+    "name": "Atmospheric Scientist"
+  },
+  {
+    "name": "Molecular Scientist"
+  },
+  {
+    "name": "Call Center Representative"
+  },
+  {
+    "name": "Customer Service"
+  },
+  {
+    "name": "Telemarketer"
+  },
+  {
+    "name": "Telephone Operator"
+  },
+  {
+    "name": "Phone Survey Conductor"
+  },
+  {
+    "name": "Dispatcher for Trucks or Taxis"
+  },
+  {
+    "name": "Customer Support Representative"
+  },
+  {
+    "name": "Over the Phone Interpreter"
+  },
+  {
+    "name": "Phone Sales Specialist"
+  },
+  {
+    "name": "Mortgage Loan Processor"
+  },
+  {
+    "name": "Counselor"
+  },
+  {
+    "name": "Mental Health Counselor"
+  },
+  {
+    "name": "Addiction Counselor"
+  },
+  {
+    "name": "School Counselor"
+  },
+  {
+    "name": "Speech Pathologist"
+  },
+  {
+    "name": "Guidance Counselor"
+  },
+  {
+    "name": "Social Worker"
+  },
+  {
+    "name": "Therapist"
+  },
+  {
+    "name": "Life Coach"
+  },
+  {
+    "name": "Couples Counselor"
+  },
+  {
+    "name": "Beautician"
+  },
+  {
+    "name": "Hair Stylist"
+  },
+  {
+    "name": "Nail Technician"
+  },
+  {
+    "name": "Cosmetologist"
+  },
+  {
+    "name": "Salon Manager"
+  },
+  {
+    "name": "Makeup Artist"
+  },
+  {
+    "name": "Esthetician"
+  },
+  {
+    "name": "Skin Care Specialist"
+  },
+  {
+    "name": "Manicurist"
+  },
+  {
+    "name": "Barber"
+  },
+  {
+    "name": "Journalist"
+  },
+  {
+    "name": "Copy Editor"
+  },
+  {
+    "name": "Editor/Proofreader"
+  },
+  {
+    "name": "Content Creator"
+  },
+  {
+    "name": "Speechwriter"
+  },
+  {
+    "name": "Communications Director"
+  },
+  {
+    "name": "Screenwriter"
+  },
+  {
+    "name": "Technical Writer"
+  },
+  {
+    "name": "Columnist"
+  },
+  {
+    "name": "Public Relations Specialist"
+  },
+  {
+    "name": "Proposal Writer"
+  },
+  {
+    "name": "Content Strategist"
+  },
+  {
+    "name": "Grant Writer"
+  },
+  {
+    "name": "Video Game Writer"
+  },
+  {
+    "name": "Translator"
+  },
+  {
+    "name": "Film Critic"
+  },
+  {
+    "name": "Copywriter"
+  },
+  {
+    "name": "Travel Writer"
+  },
+  {
+    "name": "Social Media Specialist"
+  },
+  {
+    "name": "Ghostwriter"
+  },
+  {
+    "name": "Warehouse Worker"
+  },
+  {
+    "name": "Painter"
+  },
+  {
+    "name": "Truck Driver"
+  },
+  {
+    "name": "Heavy Equipment Operator"
+  },
+  {
+    "name": "Welding"
+  },
+  {
+    "name": "Physical Therapy Assistant"
+  },
+  {
+    "name": "Housekeeper"
+  },
+  {
+    "name": "Landscaping Worker"
+  },
+  {
+    "name": "Landscaping Assistant"
+  },
+  {
+    "name": "Mover"
+  },
+  {
+    "name": "Animal Breeder"
+  },
+  {
+    "name": "Veterinary Assistant"
+  },
+  {
+    "name": "Farm Worker"
+  },
+  {
+    "name": "Animal Shelter Worker"
+  },
+  {
+    "name": "Dog Walker / Pet Sitter"
+  },
+  {
+    "name": "Zoologist"
+  },
+  {
+    "name": "Animal Trainer"
+  },
+  {
+    "name": "Service Dog Trainer"
+  },
+  {
+    "name": "Animal Shelter Manager"
+  },
+  {
+    "name": "Animal Control Officer"
+  },
+  {
+    "name": "Delivery Driver"
+  },
+  {
+    "name": "School Bus Driver"
+  },
+  {
+    "name": "Truck Driver"
+  },
+  {
+    "name": "Tow Truck Operator"
+  },
+  {
+    "name": "UPS Driver"
+  },
+  {
+    "name": "Mail Carrier"
+  },
+  {
+    "name": "Recyclables Collector"
+  },
+  {
+    "name": "Courier"
+  },
+  {
+    "name": "Bus Driver"
+  },
+  {
+    "name": "Cab Driver"
+  },
+  {
+    "name": "Animal Shelter Board Member"
+  },
+  {
+    "name": "Office Volunteer"
+  },
+  {
+    "name": "Animal Shelter Volunteer"
+  },
+  {
+    "name": "Hospital Volunteer"
+  },
+  {
+    "name": "Youth Volunteer"
+  },
+  {
+    "name": "Food Kitchen Worker"
+  },
+  {
+    "name": "Homeless Shelter Worker"
+  },
+  {
+    "name": "Conservation Volunteer"
+  },
+  {
+    "name": "Meals on Wheels Driver"
+  },
+  {
+    "name": "Habitat for Humanity Builder"
+  },
+  {
+    "name": "Emergency Relief Worker"
+  },
+  {
+    "name": "Red Cross Volunteer"
+  },
+  {
+    "name": "Community Food Project Worker"
+  },
+  {
+    "name": "Women’s Shelter Jobs"
+  },
+  {
+    "name": "Suicide Hotline Volunteer"
+  },
+  {
+    "name": "School Volunteer"
+  },
+  {
+    "name": "Community Volunteer Jobs"
+  },
+  {
+    "name": "Sports Volunteer"
+  },
+  {
+    "name": "Church Volunteer"
+  },
+  {
+    "name": "Archivist"
+  },
+  {
+    "name": "Actuary"
+  },
+  {
+    "name": "Architect"
+  },
+  {
+    "name": "Personal Assistant"
+  },
+  {
+    "name": "Entrepreneur"
+  },
+  {
+    "name": "Security Guard"
+  },
+  {
+    "name": "Mechanic"
+  },
+  {
+    "name": "Recruiter"
+  },
+  {
+    "name": "Mathematician"
+  },
+  {
+    "name": "Locksmith"
+  },
+  {
+    "name": "Management Consultant"
+  },
+  {
+    "name": "Shelf Stocker"
+  },
+  {
+    "name": "Caretaker or House Sitter"
+  },
+  {
+    "name": "Library Assistant"
+  },
+  {
+    "name": "Translator"
+  },
+  {
+    "name": "HVAC Technician"
+  },
+  {
+    "name": "Attorney"
+  },
+  {
+    "name": "Paralegal"
+  },
+  {
+    "name": "Executive Assistant"
+  },
+  {
+    "name": "Personal Assistant"
+  },
+  {
+    "name": "Bank Teller"
+  },
+  {
+    "name": "Parking Attendant"
+  },
+  {
+    "name": "Machinery Operator"
+  },
+  {
+    "name": "Manufacturing Assembler"
+  },
+  {
+    "name": "Funeral Attendant"
+  },
+  {
+    "name": "Assistant Golf Professional"
+  },
+  {
+    "name": "Yoga Instructor"
+  }
+]

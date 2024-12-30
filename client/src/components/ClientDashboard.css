@@ -1,0 +1,202 @@
+/* Specificity added for dashboard container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(60deg, #000, #222, #000);
+  animation: color 5s ease-in-out infinite;
+  overflow: scroll;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #edc500;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/* Specificity added for dashboard navbar */
+.dashboard-container .dashboard-navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.dashboard-container .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dashboard-container .logo-peh {
+  color: #fff;
+}
+
+.dashboard-container .logo-chaan {
+  color: #edc500;
+}
+
+/* Specificity added for navbar links */
+.dashboard-container .nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+.dashboard-container .dashboard-navbar h2{
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  font-size: 18px;
+
+}
+
+.dashboard-container .nav-link:hover {
+  color: #e8990f;
+}
+
+/* Specificity added for dashboard main */
+.dashboard-container .dashboard-main {
+  flex: 1;
+  padding: 20px;
+}
+
+.dashboard-container .dashboard-main h1 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 40px;
+  color: white; /* Ensure text remains visible */
+}
+
+/* Specificity added for job list */
+.dashboard-container .dashboard-main .job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff; /* Make sure the text is black */
+}
+.dashboard-container .dashboard-main .job-list h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 20px;
+  color: #fff; /* Make sure the text is black */
+}
+
+.dashboard-container .dashboard-main .job-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Specificity added for job items */
+.dashboard-container .dashboard-main .job-list .job-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #242424; /* Ensure the background is white */
+  padding: 15px;
+  color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.dashboard-container .dashboard-main .job-list .job-item a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.dashboard-container .dashboard-main .job-list .job-item:hover {
+  background-color: #1f1f1f;
+}
+
+/* Specificity added for job details */
+.dashboard-container .dashboard-main .job-list .job-item .job-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+/* Specificity added for job details span */
+.dashboard-container .dashboard-main .job-list .job-item .job-details .title {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.dashboard-container .dashboard-main .job-list .job-item:hover .job-details .title {
+  color: #edc500;
+}
+
+.dashboard-container .dashboard-main .job-list .job-item .job-details .tag {
+  padding: 10px;
+  background-color: #181818;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+/* Specificity added for job actions */
+.dashboard-container .dashboard-main .job-list .job-item .job-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Specificity added for buttons */
+.dashboard-container .dashboard-main .job-list .job-item .btn {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+  border: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #edc500;
+}
+
+.dashboard-container .dashboard-main .job-list .job-item .btn:hover {
+  background-color: #222;
+}
+
+/* Specificity added for h2 tags */
+.dashboard-container .dashboard-main h2 {
+  color: white;
+}

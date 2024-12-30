@@ -1,0 +1,36 @@
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5px;
+  width: 90%;
+  border-radius: 5px;
+  margin: 20px 10px;
+}
+
+.progress-step {
+  flex: 1;
+  height: 100%;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.progress-step.completed {
+  background-color: #4caf50; 
+}
+
+.progress-step.active {
+  background-color: #e0e0e0; 
+  animation: blinker 3s linear infinite;
+}
+
+.progress-step.to-do {
+  background-color: #222;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

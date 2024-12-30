@@ -1,0 +1,451 @@
+/* Specificity added for create-job container */
+
+a {
+	text-decoration: none;
+	color: #dac100;
+}
+
+button.primary {
+	cursor: pointer;
+	padding: 0.65rem 1rem;
+	background-color: #edc500;
+	border: none;
+	font-weight: 600;
+	border-radius: 10px;
+	white-space: nowrap;
+	font-family: 'Poppins';
+	transition: all 100ms ease-in;
+}
+
+button.primary:hover {
+	background-color: #222;
+	color: #edc500;
+}
+
+button.secondary {
+	cursor: pointer;
+	padding: 0.65rem 1rem;
+	color: #edc500;
+	background-color: transparent;
+	border: none;
+	font-weight: 600;
+	border-radius: 10px;
+	white-space: nowrap;
+	font-family: 'Poppins';
+	transition: all 100ms ease-in;
+}
+
+button.secondary:hover {
+	background-color: #222;
+}
+
+.create-question-modal .error-text {
+	color: rgb(255, 97, 97);
+	font-size: 0.8rem;
+}
+
+.create-questions-container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background: linear-gradient(60deg, #000, #222, #000);
+	animation: color 5s ease-in-out infinite;
+	overflow: scroll;
+}
+
+.create-questions-container .loader-container {
+	z-index: 100;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.loader {
+	border: 4px solid #f3f3f3;
+	border-top: 4px solid #edc500;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	animation: spin 1s linear infinite;
+}
+
+.create-questions-container .loader-container .loader-message {
+	color: #aaa;
+}
+
+@keyframes color {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+/* Specificity added for create-questions navbar */
+.create-questions-container .create-questions-navbar {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px;
+}
+
+.create-questions-container .logo {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.create-questions-container .logo-peh {
+	color: #fff;
+}
+
+.create-questions-container .logo-chaan {
+	color: #edc500;
+}
+
+/* Specificity added for navbar links */
+.create-questions-container .nav-link {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 18px;
+}
+
+.create-questions-container .create-questions-navbar h2{
+	display: flex;
+	align-items: flex-end;
+	justify-content: right;
+	font-size: 18px;
+
+}
+
+.create-questions-container .nav-link:hover {
+	color: #e8990f;
+}
+
+
+.create-question-modal {
+  height: 80vh;
+  width: 50vw;
+  background: #000;
+  padding: 2rem;
+  border-radius: 16px;
+  flex-direction: column;
+}
+
+.create-question-modal::backdrop {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+:modal {
+	display: flex;
+}
+
+.create-question-modal .close-button {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.create-question-modal .progress-status {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.create-question-modal .progress-status .progress-bar {
+  height: 4px;
+  background-color: #333;
+  flex-grow: 1;
+  border-radius: 50vw;
+}
+
+.progress-status .progress-bar.done {
+  background-color: #ccc;
+}
+
+ 
+.create-question-modal .question-form {
+  margin-top: 2rem;
+  height: 100%;
+	display: flex;
+  flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+
+.question-form .form-group {
+  position: relative;
+	width: 48%;
+	margin-top: 15px;
+}
+
+.question-form .form-group.reference-answers {
+	width: 100%;
+}
+
+.question-form .form-group input,
+.question-form .form-group select,
+.question-form .form-group textarea,
+.question-form .actions select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Poppins';
+  background: none;
+  font-size: 14px;
+  outline: none;
+  background-color: transparent;
+}
+
+.question-form .form-group textarea {
+	resize: vertical;
+}
+
+.question-form .form-group select {
+  background: #000;
+}
+
+.question-form input:focus,
+.question-form select:focus {
+	border-color: #fff623;
+	outline: none;
+}
+
+.question-form .form-group label {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	transform: translateY(-50%);
+	font-size: 16px;
+	color: #ccc;
+	transition: 0.2s;
+	pointer-events: none;
+}
+
+.form-group input:focus ~ label,
+.form-group input:valid ~ label,
+.form-group select:focus ~ label,
+.form-group select:valid ~ label {
+	top: 0;
+	font-size: 12px;
+	color: #ccc;
+	background-color: #222;
+}
+
+.question-form .actions {
+	height: fit-content;
+  width: 100%;
+  flex-grow: 1;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+  align-self: flex-end;
+  display: flex;
+  gap: 1rem;
+}
+
+.question-form .actions select {
+	width: fit-content;
+	background-color: #111;
+}
+
+.question-form .actions button.back {
+  margin-left: auto;
+}
+
+/* Specificity added for create-questions main */
+.create-questions-container .create-questions-main {
+	flex: 1;
+	padding: 20px;
+	margin-inline: auto;
+	width: 80%;
+}
+
+.create-questions-container .create-questions-main h1 {
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	font-size: 40px;
+	color: white; /* Ensure text remains visible */
+}
+
+/* Specificity added for h2 tags */
+.create-questions-container .create-questions-main h2 {
+	color: white;
+}
+
+
+.questions-list-container {
+	width: 80%;
+	margin-inline: auto;
+	padding: 1.5rem 3rem;
+	margin-bottom: 15px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid #444;
+	border-radius: 5px;
+	max-width: 1400px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.questions-list-container .question-set-select {
+	display: flex;
+	gap: 1rem;
+}
+
+.questions-list-container .question-set-select .question-set-option {
+	display: flex;
+	justify-content: center;
+	padding: 0.6rem;
+	flex-grow: 1;
+	border: 1px solid #444;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.questions-list-container .question-set-select .question-set-option.selected {
+	background-color: #222;
+}
+
+.questions-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.questions-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #666;
+  display: flex;
+  flex-direction: row;
+}
+
+.questions-list-container .questions-list .left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.questions-list-container .questions-list .right {
+  width: 30%;
+}
+
+.iframe-video {
+  width: 100%;
+  min-width: 200px;
+  height: 450px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+
+
+.generate-questions-form {
+	width: 80%;
+	margin-inline: auto;
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+}
+
+.generate-questions-form form {
+	width: 80%;
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+}
+
+.generate-questions-form form textarea,
+.generate-questions-form form select {
+	padding: 0.75rem 1.2rem;
+	background-color: #111;
+	color: white;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	resize: vertical;
+	font-family: 'Poppins';
+	font-size: 0.9rem;
+	transition: outline 100ms ease-in;
+}
+
+.generate-questions-form form textarea:focus {
+	outline: 1px solid #dac100;
+}
+
+.generate-questions-form form button {
+	cursor: pointer;
+	padding: 0.75rem 1.2rem;
+	background-color: #dac100;
+	border: none;
+	font-weight: 600;
+	border-radius: 10px;
+	white-space: nowrap;
+	transition: all 100ms ease-in;
+}
+
+.generate-questions-form form button:hover {
+	background-color: #222;
+	color: #dac100;
+}
+
+.response-questions {
+	margin-block: 4rem;
+	width: 80%;
+	margin-inline: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 0.85rem;
+}	
+
+.response-questions .question {
+	position: relative;
+	width: 100%;
+	display: flex;
+	gap: 4px;
+	align-items: baseline;
+	border: 1px solid #333;
+	background-color: #111;
+	border-radius: 10px;
+	padding-right: 0.35rem;
+}
+
+.response-questions .question textarea {
+	width: 100%;
+	field-sizing: content;
+	padding: 0.8rem 1.2rem;
+	background-color: #111;
+	border: none;
+	color: #ddd;
+	font-size: 1rem;
+	border-radius: 10px;
+	font-family: 'Poppins';
+	resize: none;
+}
+
+.response-questions .question texarea:active,
+.response-questions .question texarea:focus {
+	border: 1px solid #edc500;
+	outline: 1px solid #edc500;
+}
+
+textarea {
+	field-sizing: content;
+}

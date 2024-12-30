@@ -1,0 +1,110 @@
+.landing-container {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+  color: white;
+}
+
+.landing-container .signup-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.landing-container .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.landing-container .circle-large {
+  position: absolute;
+  top: 20%;
+  right: 18%;
+  z-index: -1;
+}
+
+.landing-container .circle-small {
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  z-index: -1;
+}
+
+.landing-main-content {
+  position: relative;
+  z-index: 1;
+  padding: 50px;
+}
+
+.landing-container .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.landing-container .card {
+  background-color: #d69c5a;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.landing-container .card:hover {
+  transform: scale(1.05);
+}
+
+.landing-container .card h2 {
+  margin: 0;
+}
+
+.landing-container .loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+. .loader {
+  border: 4px solid #edc500;
+  border-top: 4px solid #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 2s linear infinite;
+}
+
+.landing-container .loader-message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 20px; /* Space between cards in column layout */
+    max-width: 90%; /* Adjust card width for small screens */
+  }
+}
